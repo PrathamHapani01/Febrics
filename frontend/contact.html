@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Maison Lin</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a href="index.html" class="logo">Maison Lin</a>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="collections.html">Collections</a>
+        <a href="swatches.html">Swatches</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" class="is-active">Contact</a>
+        <a href="admin.html" class="nav-admin">Admin</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container content-page">
+    <h1>Contact us</h1>
+    <p class="lead">Questions about fabrics, wholesale, or swatch kits? We'd love to hear from you.</p>
+    <p><strong>Email:</strong> hello@maisonlin.in<br />
+    <strong>Phone:</strong> +91 98765 43210<br />
+    <strong>Studio:</strong> Mumbai, India</p>
+
+    <form class="contact-form" onsubmit="event.preventDefault();alert('Thank you! We will reply within 24 hours.');">
+      <label for="name">Name</label>
+      <input id="name" name="name" required />
+
+      <label for="email">Email</label>
+      <input id="email" name="email" type="email" required />
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit" class="btn btn--primary">Send message</button>
+    </form>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container"><p class="footer-bottom">© 2026 Maison Lin Textile Atelier.</p></div>
+  </footer>
+</body>
+</html>
