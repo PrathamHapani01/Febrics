@@ -3,7 +3,7 @@ import os
 import psycopg
 from psycopg.rows import dict_row
 
-from security import get_admin_password_plain, get_admin_username, hash_password
+from backend.security import get_admin_password_plain, get_admin_username, hash_password
 
 SEED_FABRICS = [
     {

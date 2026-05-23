@@ -71,7 +71,7 @@ FLASK_DEBUG=1
     print(f"\nWrote {ENV_PATH}")
 
     load_dotenv(ENV_PATH)
-    from database import init_db
+    from backend.database import init_db
 
     print("Creating tables and seed data...")
     init_db()

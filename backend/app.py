@@ -10,8 +10,8 @@ from werkzeug.utils import secure_filename
 
 load_dotenv(Path(__file__).parent / ".env")
 
-from database import get_admin_by_username, get_connection, init_db, row_to_dict
-from security import (
+from backend.database import get_admin_by_username, get_connection, init_db, row_to_dict
+from backend.security import (
     check_login_rate_limit,
     clear_login_attempts,
     client_ip,

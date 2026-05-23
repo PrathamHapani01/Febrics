@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 
 load_dotenv(Path(__file__).parent / ".env")
 
-from database import init_db
+from backend.database import init_db
 
 if __name__ == "__main__":
     init_db()
