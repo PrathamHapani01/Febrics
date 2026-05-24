@@ -1,4 +1,4 @@
-# Maison Lin — Fabric Website
+# Sky Tex — Fabric Website
 
 A fabric shop inspired by [Ivory Weave Emporium](https://ivory-weave-emporium.lovable.app/), built with **HTML/CSS** frontend and a **Python Flask** API backend. All prices are in **Indian Rupees (₹)**.
 

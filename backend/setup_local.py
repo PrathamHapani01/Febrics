@@ -18,7 +18,7 @@ def prompt(label: str, default: str = "") -> str:
 
 
 def main() -> int:
-    print("\n=== Maison Lin — PostgreSQL setup ===\n")
+    print("\n=== Sky Tex — PostgreSQL setup ===\n")
 
     db_name = prompt("Database name you created in pgAdmin", "fabrics")
     user = prompt("PostgreSQL username", "postgres")

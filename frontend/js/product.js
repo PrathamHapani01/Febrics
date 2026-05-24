@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   try {
     const fabric = await fetchFabric(slug);
-    document.title = fabric.name + " — Maison Lin";
+    document.title = fabric.name + " — Sky Tex";
 
     main.innerHTML = `
       <nav class="breadcrumb">
